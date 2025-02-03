@@ -61,8 +61,3 @@ node notification_service.js
 node order_service.js
 node orchestrator_service.js
 ```
-
-OR
-```
-npm start
-```

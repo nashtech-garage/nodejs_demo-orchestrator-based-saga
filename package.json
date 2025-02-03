@@ -15,8 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node inventory_service.js & node payment_service.js & node notification_service.js & node order_service.js & node orchestrator_service.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "amqplib": "^0.10.5"
