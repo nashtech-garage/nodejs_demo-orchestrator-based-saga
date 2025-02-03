@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_demo-orchestrator-based-saga",
+  "version": "1.0.0",
+  "description": "Demo how to build Orchestrator-Based Saga by Node.js",
+  "homepage": "https://github.com/nashtech-garage/nodejs_demo-orchestrator-based-saga#readme",
+  "bugs": {
+    "url": "https://github.com/nashtech-garage/nodejs_demo-orchestrator-based-saga/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashtech-garage/nodejs_demo-orchestrator-based-saga.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node inventory_service.js & node payment_service.js & node notification_service.js & node order_service.js & node orchestrator_service.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.5"
+  }
+}
