@@ -1,6 +1,3 @@
-# nodejs_demo-orchestrator-based-saga
-Demo how to build Orchestrator-Based Saga by Node.js
-
 # Demo Orchestrator-Based Saga in Node.js
 This repo demo how to build Orchestrator-Based Saga in Node.js
 
